@@ -3,8 +3,8 @@ using System.Net.Sockets;
 using System.Text;
 class Servidor
 {
-    static TcpListener server;
-    static TcpClient client;
+    static TcpListener? server;
+    static TcpClient? client;
 
     public void Iniciar()
     {
